@@ -167,7 +167,9 @@ python main.py --input path/to/your/video.mp4 --model models/custom_yolo.pt
 1. **Primary Test Match**: [Sample Input Video 1](https://drive.google.com/file/d/1B4Fxe15dEczJkUEgd-OKT7iLrfMYfGRT/view)
    - Professional football match footage
    - Multiple players, referee, and ball interactions
-![Input Videos Screenshots](output_videos/1.jpg) (output_videos/2.jpg)
+![Input Videos Screenshots](output_videos/1.jpg)
+[Sample Input Video 2]
+![Input Videos Screenshots](output_videos/2.jpg)
 
 
 #### Output Results  
