@@ -132,14 +132,15 @@ CUDA-compatible GPU (recommended)
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/football-analysis-system.git
-cd football-analysis-system
+git clone https://github.com/Danish1-ux/football-yolo-analysis
+
+cd football-yolo-analysis
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Download pre-trained models
-# Custom YOLOv5 model: https://drive.google.com/file/d/1DC2kCygbBWUKheQ_9cFziCsYVSRw6axK
+# Custom YOLOv5 model: https://drive.google.com/file/d/1DC2kCygbBWUKheQ_9cFziCsYVSRw6axK/view
 ```
 
 ### Usage
@@ -149,15 +150,49 @@ python main.py --input input_videos/sample_match.mp4 --output output_videos/anal
 
 # Custom video analysis
 python main.py --input path/to/your/video.mp4 --model models/custom_yolo.pt
+```
+
+---
+
+## 📁 Trained Models & Sample Data
+
+### 🧠 Pre-trained Models
+- **Custom YOLOv5 Model**: [Download Trained Model](https://drive.google.com/file/d/1DC2kCygbBWUKheQ_9cFziCsYVSRw6axK/view)
+  - Fine-tuned specifically for football player, referee, and ball detection
+ 
+
+### 📹 Sample Videos
+
+#### Input Videos
+1. **Primary Test Match**: [Sample Input Video 1](https://drive.google.com/file/d/1B4Fxe15dEczJkUEgd-OKT7iLrfMYfGRT/view)
+   - Professional football match footage
+   - Multiple players, referee, and ball interactions
+![Input Videos Screenshots](output_videos/1.jpg) (output_videos/2.jpg)
+
+
+#### Output Results  
+1. **Processed Analysis**: [Sample Output Video 1](https://drive.google.com/file/d/10v1VIPyhqqjljtY9fxgTMiOK70GTSEv0/view?usp=sharing)
+   - Complete analysis with player tracking, team classification, and performance metrics
+   
+![Output Videos Screenshots](output_videos/screenshot.png) (output_videos/3.jpg)
 
 ---
 
 ## 🎥 Demo & Results
 
-### Sample Output
-![Football Analysis Demo](output_videos/screenshot.png)
 
-*Real-time player tracking with speed metrics, team classification, and ball possession analysis*
+### Technical Process Visualization
+<!-- Add technical pipeline images here -->
+![YOLO Detection Results](output_videos/4.jpg)
+*YOLO object detection identifying players, referees, and ball*
+
+![Team Classification](output_videos/cropped_image.jpg) 
+*K-means clustering for automatic team assignment based on jersey colors*
+
+![Performance Analytics](output_videos/screenshot.png)
+*Real-time speed and distance calculations for individual players*
+
+
 
 ### Key Insights Generated
 - Individual player speed and distance covered
@@ -240,15 +275,28 @@ torch>=1.9.0
 - Robotics and motion planning
 - Augmented reality sports applications
 
+---
+
+
+
 
 ## 📬 Contact & Links
 
-**Developer**: Danish Shamshir
-**Email**: shamshirdanish@gmail.com
-**LinkedIn**: (https://www.linkedin.com/in/danish-s-224a77251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+**Developer**: Danish Shamshir  
+**Email**: shamshirdanish@gmail.com  
+**LinkedIn**: [linkedin.com/in/danish-s-224a77251](https://www.linkedin.com/in/danish-s-224a77251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
+### 🔗 Project Resources
 
+- **Custom YOLOv5 Model**: [Download Model](https://drive.google.com/file/d/1DC2kCygbBWUKheQ_9cFziCsYVSRw6axK/view)
+- **Sample Input Video**: [Test Footage](https://drive.google.com/file/d/1B4Fxe15dEczJkUEgd-OKT7iLrfMYfGRT/view)
+- **Sample Output Video**: [Processed Results](https://drive.google.com/file/d/10v1VIPyhqqjljtY9fxgTMiOK70GTSEv0/view?usp=sharing)
 
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
