@@ -168,7 +168,7 @@ python main.py --input path/to/your/video.mp4 --model models/custom_yolo.pt
    - Professional football match footage
    - Multiple players, referee, and ball interactions
 ![Input Videos Screenshots](output_videos/1.jpg)
-[Sample Input Video 2]
+
 ![Input Videos Screenshots](output_videos/2.jpg)
 
 
@@ -176,7 +176,8 @@ python main.py --input path/to/your/video.mp4 --model models/custom_yolo.pt
 1. **Processed Analysis**: [Sample Output Video 1](https://drive.google.com/file/d/10v1VIPyhqqjljtY9fxgTMiOK70GTSEv0/view?usp=sharing)
    - Complete analysis with player tracking, team classification, and performance metrics
    
-![Output Videos Screenshots](output_videos/screenshot.png) (output_videos/3.jpg)
+![Output Videos Screenshots](output_videos/screenshot.png) 
+![Output Videos Screenshots](output_videos/3.jpg)
 
 ---
 
